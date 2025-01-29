@@ -60,7 +60,7 @@ const valueGenerator = (angleValue) => {
 
       // Hiển thị pop-up sau 2 giây
       setTimeout(() => {
-        showPopup(`Bạn đã nhận được lì xì ${i.value} nghìn VND(nhớ cap màn hình để nhận thưởng)`);
+        showPopup(`Bạn đã nhận được lì xì ${i.value} nghìn VND(nhớ quay video màn hình rồi gửi cho vinstar để nhận thưởng)`);
       }, 2000);
 
       break;
