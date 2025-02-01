@@ -10,7 +10,7 @@ const rotationValues = [
   { minDegree: 0, maxDegree: 30, value: 1 },
   { minDegree: 31, maxDegree: 90, value: 5 },
   { minDegree: 91, maxDegree: 150, value: 10 },
-  { minDegree: 151, maxDegree: 210, value: 1 },
+  { minDegree: 151, maxDegree: 210, value: 7 },
   { minDegree: 211, maxDegree: 270, value: 4 },
   { minDegree: 271, maxDegree: 330, value: 3 },
   { minDegree: 331, maxDegree: 360, value: 2 },
@@ -60,7 +60,7 @@ const valueGenerator = (angleValue) => {
 
       // Hiển thị pop-up sau 2 giây
       setTimeout(() => {
-        showPopup(`Bạn đã nhận được lì xì ${i.value} nghìn VND(nhớ quay video màn hình rồi gửi cho vinstar để nhận thưởng)`);
+        showPopup(`Bạn đã nhận được lì xì ${i.value} nghìn VND(nhớ quay video màn hình rồi gửi cho quang để nhận thưởng)`);
       }, 2000);
 
       break;
