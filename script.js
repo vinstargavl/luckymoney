@@ -78,7 +78,7 @@ spinBtn.addEventListener("click", () => {
   finalValue.innerHTML = `<p>Good Luck!</p>`;
 
   const validAngles = [
-    Math.floor(Math.random() * (210 - 151 + 1)) + 151,
+    Math.floor(Math.random() * (30 - 0 + 1)) + 0,
     Math.floor(Math.random() * (90 - 31 + 1)) + 31,
     Math.floor(Math.random() * (150 - 91 + 1)) + 91,
   ];
